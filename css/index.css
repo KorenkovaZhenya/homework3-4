@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|Pacifico|Ruge+Boogie|Sacramento|Uncial+Antiqua|Zhi+Mang+Xing&display=swap');
+
+h1, h2, p, section, header, main, 
+footer {
+    margin 0;
+    padding 0;
+}
+
+header nav .header {
+     display: flex;
+     padding: 0;
+     list-style-type: none;
+     justify-content: space-around;
+}
