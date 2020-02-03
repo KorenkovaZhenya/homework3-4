@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|Pacifico|Ruge+Boogie|Sacramento|Uncial+Antiqua|Zhi+Mang+Xing&display=swap');
 
+:root {
+    --main-color: #ac2525;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #e9a7a7ad;
+}
+
 body {
     max-width: 980px;
     margin: auto;
@@ -137,6 +144,7 @@ header nav .header {
 main .product-card img {
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 main .product-card .button-group {
@@ -164,11 +172,17 @@ main .product-card .button-group {
     }
 }
 
+h1, h2 {
+    margin: 10px;
+    font-family: 'Slabo', Tahoma, sans-serif;
+    color: #0e5333
+}
+
 .button {
     display: inline-block;
     padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
+    border: 0.1em solid rgb(190, 50, 50);
+    margin: 50px 40px 50px;
     border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration: none;
@@ -186,7 +200,7 @@ main .product-card .button-group {
 }
 
 .card-button {
-    border-color: black;
+    border-color: rgb(163, 42, 42);
     color: black;
 }
 .card-button:hover {
@@ -203,4 +217,22 @@ main .product-card .button-group {
   align-content: space-between;
 }
     
-  
+.bgr {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.button2 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid rgb(190, 50, 50);
+    margin: 10px 6px 10px;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.3s;
+    background-color: transparent;
